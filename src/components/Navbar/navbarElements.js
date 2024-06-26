@@ -1,10 +1,11 @@
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
+import { highlight, textColor} from "../../services/color";
 
 export const Nav = styled.nav`
     /* Controls the main bar color */ 
-    background: #73d471;
+    background: ${highlight};
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -14,7 +15,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
     /* Controls the main the text color */ 
-    color: #808080;
+    color: ${textColor};
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -23,12 +24,13 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     &.active {
         color: #000000;
+        text-decoration: underline;
     }
 `;
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: #808080;
+    color: ${textColor};
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;

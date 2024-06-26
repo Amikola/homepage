@@ -3,15 +3,16 @@ import {
   Routes, Route, Navigate
 } from 'react-router-dom'
 import Navbar from "./components/Navbar";
-import About from "./components/pages/about"
+import About from "./components/pages/about/about.js"
 import Contact from "./components/pages/contact"
 import CV from "./components/pages/cv"
 import Links from "./components/pages/links"
+import { backround } from './services/color';
 
 
 function App() {
   return (
-  
+    <div color = {backround}>  
     <Router>
         <Navbar/>
         <Routes>
@@ -23,6 +24,7 @@ function App() {
         </Routes>
       
     </Router>
+    </div>
    
   );
 }
