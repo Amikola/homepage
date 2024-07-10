@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     background: ${highlight};
     height: 85px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the entire content */
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
 `;
@@ -45,6 +45,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center; /* Center the links inside the NavMenu */
     margin-right: -24px;
     /* Second Nav */
     /* margin-right: 24px; */
@@ -55,4 +56,3 @@ export const NavMenu = styled.div`
         display: none;
     }
 `;
-

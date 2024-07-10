@@ -8,11 +8,12 @@ import Contact from "./components/pages/contact"
 import CV from "./components/pages/cv"
 import Links from "./components/pages/links"
 import { backround } from './services/color';
+import BottomBar from './components/BottomBar';
 
 
 function App() {
   return (
-    <div color = {backround}>  
+    <div style = {{backgroundColor: backround}}>  
     <Router>
         <Navbar/>
         <Routes>
@@ -22,7 +23,7 @@ function App() {
         <Route path="/links" element={<Links />} />
         <Route path="/" element={<Navigate to="/about" />} />
         </Routes>
-      
+      <BottomBar/>
     </Router>
     </div>
    

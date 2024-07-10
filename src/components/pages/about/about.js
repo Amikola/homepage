@@ -1,27 +1,24 @@
 import React from "react";
-import { titleStyle } from "./aboutElements";
-import picture from "../../../services/images/placeholder.png"
+import { titleStyle, ContentBox, CenteredContainer, picturStyle} from "./aboutElements";
+import picture from "../../../services/images/me.jpg"
+
 
 const About = () => {
     return (
-    <div>
+    <CenteredContainer>
 
     <h1 style={titleStyle}>Welcome to Atte's homepage!</h1>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,   
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-    laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate 
-    velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, 
-    sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
+
+    <ContentBox>
+    Hi everyone! I'm Atte Ikola, a third year computer science student at Aalto university and 
+    this is my homepage. It's the largest collection of information about me and all things a find intresting/important.
+    So if you have any questions please contact me    </ContentBox>
+
+    <div style={picturStyle}>
                 <img src={picture} alt="Placeholder" />
     </div>
     
-    </div>
+    </CenteredContainer>
 )
  }
 
