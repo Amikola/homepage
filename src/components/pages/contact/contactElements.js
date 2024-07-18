@@ -1,23 +1,7 @@
-import { textColor } from "../../../services/color";
 import styled from 'styled-components';
 
 
-export const titleStyle = {
-    color: textColor,
-    textAlign: "center", 
-    fontSize: 50
-    
-    
-  };
 
-
-export const pictureStyle = {
-    display: 'flex', 
-    justifyContent: 'center',
-    width: 500,
-    height: 500,
-    padding: 40
-};
 
  export const ContentBox = styled.div`
  width: 700px; /* Set the desired width */
@@ -30,10 +14,9 @@ export const pictureStyle = {
 
 export const CenteredContainer = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: Top;
+    height: 800px;
     align-items: center; /* Center items vertically */
     flex-direction: column; /* Ensure children are stacked vertically */
     text-align: center; /* Center text within the container */
 `;
-
-

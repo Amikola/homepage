@@ -1,5 +1,5 @@
 import React from "react";
-import { titleStyle, ContentBox, CenteredContainer, picturStyle} from "./aboutElements";
+import { titleStyle, ContentBox, CenteredContainer, pictureStyle} from "./aboutElements";
 import picture from "../../../services/images/me.jpg"
 
 
@@ -14,7 +14,7 @@ const About = () => {
     this is my homepage. It's the largest collection of information about me and all things a find intresting/important.
     So if you have any questions please contact me    </ContentBox>
 
-    <div style={picturStyle}>
+    <div style={pictureStyle}>
                 <img src={picture} alt="Placeholder" />
     </div>
     

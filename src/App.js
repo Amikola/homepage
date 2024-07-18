@@ -4,9 +4,9 @@ import {
 } from 'react-router-dom'
 import Navbar from "./components/Navbar";
 import About from "./components/pages/about/about.js"
-import Contact from "./components/pages/contact"
+import Contact from "./components/pages/contact/contact.js"
 import CV from "./components/pages/cv"
-import Links from "./components/pages/links"
+import Links from "./components/pages/links/links.js"
 import { backround } from './services/color';
 import BottomBar from './components/BottomBar';
 
