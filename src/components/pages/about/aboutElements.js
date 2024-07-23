@@ -1,4 +1,4 @@
-import { textColor } from "../../../services/color";
+import { textColor} from "../../../services/color";
 import styled from 'styled-components';
 
 
@@ -30,10 +30,12 @@ export const pictureStyle = {
 
 export const CenteredContainer = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center; /* Center items vertically */
     flex-direction: column; /* Ensure children are stacked vertically */
-    text-align: center; /* Center text within the container */
+    height: 100vh;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
 `;
 
 

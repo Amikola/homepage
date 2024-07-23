@@ -15,7 +15,7 @@ import styled from 'styled-components';
 export const CenteredContainer = styled.div`
     display: flex;
     justify-content: Top;
-    height: 800px;
+    height: 100vh;
     align-items: center; /* Center items vertically */
     flex-direction: column; /* Ensure children are stacked vertically */
     text-align: center; /* Center text within the container */
