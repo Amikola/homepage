@@ -12,7 +12,7 @@ const About = () => {
     <ContentBox>
     Hi everyone! I'm Atte Ikola, a third year computer science student at Aalto university and 
     this is my homepage. It's the largest collection of information about me and all things a find intresting/important.
-    So if you have any questions please contact me    </ContentBox>
+    So if you have any questions please contact me! </ContentBox>
 
     <div style={pictureStyle}>
                 <img src={picture} alt="Placeholder" />
