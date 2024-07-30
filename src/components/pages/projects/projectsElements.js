@@ -1,5 +1,15 @@
 import styled from 'styled-components';
 
+
+
+export const pictureStyle = {
+    display: 'flex', 
+    justifyContent: 'center',
+    width: 500,
+    height: 500,
+    padding: 40
+};
+
  export const ContentBox = styled.div`
  width: 700px; /* Set the desired width */
  padding: 10px;
